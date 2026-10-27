@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CaneScan - Sugarcane leaf disease check</title>
+  <meta name="description" content="Upload a photo of a sugarcane leaf and get a disease diagnosis with treatment advice.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#view">Skip to content</a>
+
+  <header class="top">
+    <a class="brand" href="#/scan" aria-label="CaneScan home">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+        <path d="M5 27C5 13 14 5 27 5c0 13-8 22-22 22Z" fill="currentColor"/>
+        <path d="M5 27 21 11" stroke="var(--bg)" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span>CaneScan</span>
+    </a>
+    <nav id="nav" aria-label="Main">
+      <a href="#/scan" data-route="scan">Scan</a>
+      <a href="#/history" data-route="history">History</a>
+      <a href="#/guide" data-route="guide">Disease guide</a>
+      <a href="#/insights" data-route="insights">Insights</a>
+    </nav>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <footer class="foot">
+    <p>CaneScan gives an automated estimate from a photo. Confirm serious cases with a local agricultural officer before spraying or removing crop.</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

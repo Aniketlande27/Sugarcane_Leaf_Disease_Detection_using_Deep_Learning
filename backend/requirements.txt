@@ -1,0 +1,2 @@
+# Full install (API + ML). For API-only use: pip install -r requirements-api.txt
+-r requirements-ml.txt

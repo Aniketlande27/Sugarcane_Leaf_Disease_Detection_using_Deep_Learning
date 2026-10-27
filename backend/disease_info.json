@@ -1,0 +1,90 @@
+{
+  "_fallback": {
+    "display_name": "",
+    "severity": "unknown",
+    "description": "Detailed advice for this class has not been added yet.",
+    "symptoms": "Add symptom notes for this class in disease_info.json.",
+    "treatment": "Consult your local agricultural extension officer or a plant pathologist before applying any treatment.",
+    "prevention": "Use certified disease-free planting material, keep fields clean, and scout regularly."
+  },
+  "healthy": {
+    "display_name": "Healthy leaf",
+    "severity": "none",
+    "description": "No visible sign of disease was detected on this leaf.",
+    "symptoms": "Uniform green colour, no lesions, streaks, pustules or spots.",
+    "treatment": "No treatment needed.",
+    "prevention": "Keep up balanced fertilisation, proper drainage and regular field scouting."
+  },
+  "mosaic": {
+    "display_name": "Mosaic",
+    "severity": "moderate",
+    "description": "A viral disease spread by aphids and by infected planting material. It reduces photosynthesis and yield.",
+    "symptoms": "Light and dark green mottled patches or streaks running along the leaf blade.",
+    "treatment": "There is no cure. Remove and destroy infected clumps, and control aphid populations as advised locally.",
+    "prevention": "Plant virus-free setts, choose resistant varieties, and avoid taking seed cane from infected fields."
+  },
+  "redrot": {
+    "display_name": "Red rot",
+    "severity": "high",
+    "description": "A serious fungal disease (Colletotrichum falcatum) that spreads through infected setts, soil and water.",
+    "symptoms": "Reddish lesions with whitish patches on the midrib; stalks show red internal tissue with white cross-bands and a sour smell.",
+    "treatment": "Uproot and burn infected clumps. Do not ratoon infected fields. Ask your extension officer about a suitable fungicide sett treatment.",
+    "prevention": "Use disease-free setts of resistant varieties, rotate crops, and avoid waterlogging."
+  },
+  "rust": {
+    "display_name": "Rust",
+    "severity": "moderate",
+    "description": "A fungal leaf disease (Puccinia species) favoured by warm, humid weather.",
+    "symptoms": "Small orange-brown pustules, mostly on the underside of the leaf, that can merge into larger patches.",
+    "treatment": "Remove heavily infected leaves. A fungicide may be justified in severe outbreaks; follow local recommendations.",
+    "prevention": "Grow resistant varieties, avoid excess nitrogen, and keep spacing wide enough for air movement."
+  },
+  "yellow": {
+    "display_name": "Yellow leaf disease",
+    "severity": "moderate",
+    "description": "A viral disease transmitted by aphids and infected setts that lowers cane weight and sugar content.",
+    "symptoms": "Yellowing of the midrib on the underside of leaves, spreading outward, with drying from the leaf tip.",
+    "treatment": "There is no cure. Remove badly affected plants and manage aphids.",
+    "prevention": "Plant virus-free seed cane (tissue-culture material where available) and use tolerant varieties."
+  },
+  "smut": {
+    "display_name": "Smut",
+    "severity": "high",
+    "description": "A fungal disease (Sporisorium scitamineum) spread by wind-borne spores and infected setts.",
+    "symptoms": "A black, whip-like shoot emerging from the top of the cane, often with thin, grassy stalks.",
+    "treatment": "Cover whips with a bag before cutting them out and destroy them. Remove infected clumps. Do not ratoon heavily infected fields.",
+    "prevention": "Use clean seed cane, treat setts as locally advised, and plant resistant varieties."
+  },
+  "brownspot": {
+    "display_name": "Brown spot",
+    "severity": "low",
+    "description": "A fungal leaf spot disease that is usually minor but can build up in humid, nutrient-poor fields.",
+    "symptoms": "Oval brown spots, often with a yellow halo, scattered over the leaf.",
+    "treatment": "Usually none is needed. Improve nutrition; use a fungicide only if the outbreak is severe and locally advised.",
+    "prevention": "Balanced fertilisation, good drainage and removal of old infected leaf trash."
+  },
+  "ringspot": {
+    "display_name": "Ring spot",
+    "severity": "low",
+    "description": "A fungal leaf spot disease that is more common on older leaves.",
+    "symptoms": "Small spots with a dark ring and a straw-coloured centre.",
+    "treatment": "Normally not economic to treat. Remove badly affected leaves.",
+    "prevention": "Keep fields free of trash and avoid overcrowding."
+  },
+  "pokkahboeng": {
+    "display_name": "Pokkah boeng",
+    "severity": "moderate",
+    "description": "A fungal disease (Fusarium species) that affects the young top leaves, most often in the wet season.",
+    "symptoms": "Pale, wrinkled or twisted young leaves at the top; leaf bases may show reddish streaks.",
+    "treatment": "Fungicide may be advised during wet periods. Check with your extension officer.",
+    "prevention": "Use tolerant varieties and avoid excess nitrogen."
+  },
+  "wilt": {
+    "display_name": "Wilt",
+    "severity": "high",
+    "description": "A fungal disease that blocks water movement inside the cane.",
+    "symptoms": "Yellowing and drying of leaves, shrivelled stalks and internal discolouration.",
+    "treatment": "Remove affected clumps and avoid replanting from them.",
+    "prevention": "Use healthy setts, improve drainage and rotate crops."
+  }
+}

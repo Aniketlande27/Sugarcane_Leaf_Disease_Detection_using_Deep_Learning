@@ -1,0 +1,10 @@
+# API-only dependencies: enough to run the website, history, disease guide and health checks
+# (prediction returns a clear 503 until the ML dependencies below are usable).
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20
+sqlalchemy==2.0.36
+pillow==10.4.0
+numpy==1.26.4
+# Only if you switch DATABASE_URL to PostgreSQL:
+# psycopg2-binary==2.9.10

@@ -1,0 +1,5 @@
+# ML dependencies for real predictions.
+# IMPORTANT: use the same TensorFlow version you TRAINED with (check: pip show tensorflow in the training env).
+# 2.16.2 (Keras 3) is a good default for Python 3.11; it requires numpy < 2.
+-r requirements-api.txt
+tensorflow==2.16.2

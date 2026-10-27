@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+backend/app.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/model/*
+!backend/model/.gitkeep
